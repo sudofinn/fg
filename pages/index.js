@@ -13,11 +13,34 @@ export default function Home() {
 
 
 
-        <div className={styles.neon}>
-            <span className={styles.text} data-text="finn guha">Finn Guha</span>
-            <span className={styles.gradient}></span>
-            <span className={styles.spotlight}></span>
+        
 
+        <div>
+          <h1 className={styles.glow1}>Finn Guha</h1>
+        </div>
+
+        <div>
+            <p className={styles.previously}> sold 
+              <a  className={styles.previouslylink} href=" https://codingnotes.io ">@codingnotes  </a>
+              at 17yo to an NGO.
+            </p>
+
+            <p className={styles.previously}> worked with a
+              <a  className={styles.entrepreneurLink} href="https://x.com/iampascio ">7 figure entrepreneur </a>
+              
+            </p>
+
+            <p className={styles.previously}> Elon Musk
+              <a  className={styles.elonmuskLink} href="https://x.com/finnguha/status/1718527547393094038 ">replied </a>
+              to me once
+            </p>
+        </div>
+
+        <div>
+
+            <p className={styles.future}> 
+              YOU WILL HEAR MY NAME AGAIN
+            </p>
         </div>
 
         {/* 
@@ -125,6 +148,7 @@ export default function Home() {
 
       <style jsx global>{`
         html,
+        
         body {
           padding: 0;
           margin: 0;
