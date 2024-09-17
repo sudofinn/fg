@@ -10,12 +10,22 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+
+
+
+        <div className={styles.neon}>
+            <span className={styles.text} data-text="finn guha">Finn Guha</span>
+            <span className={styles.gradient}></span>
+            <span className={styles.spotlight}></span>
+
+        </div>
+
+        {/* 
+
+
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          Get started by editing <code>why</code>
         </p>
 
         <div className={styles.grid}>
@@ -45,9 +55,17 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
+            
           </a>
         </div>
+        */}
+
+         
+
+
       </main>
+
+      {/* 
 
       <footer>
         <a
@@ -59,6 +77,7 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
         </a>
       </footer>
+      */}
 
       <style jsx>{`
         main {
@@ -88,7 +107,7 @@ export default function Home() {
           color: inherit;
         }
         code {
-          background: #fafafa;
+          
           border-radius: 5px;
           padding: 0.75rem;
           font-size: 1.1rem;
@@ -124,6 +143,7 @@ export default function Home() {
         }
         * {
           box-sizing: border-box;
+          background-color: black;
         }
       `}</style>
     </div>
